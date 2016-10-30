@@ -1,15 +1,8 @@
 # Site
-<<<<<<< Updated upstream
 title: DSA {Chapter Name}
 description: The Democratic Socialists of America in {Location}
-url: https://dsausa.org
-logo: dsa_logo.png                                       # Site logo
-=======
-title: Halve
-description: Stylish, Two-Column Jekyll Theme
 url: http://localhost:4000
 logo: dsa-logo.png                                       # Site logo
->>>>>>> Stashed changes
 locale: en_US
 
 # Left Block Images
