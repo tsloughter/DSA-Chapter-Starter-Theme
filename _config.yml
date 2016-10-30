@@ -1,15 +1,22 @@
 # Site
+<<<<<<< Updated upstream
 title: DSA {Chapter Name}
 description: The Democratic Socialists of America in {Location}
 url: https://dsausa.org
 logo: dsa_logo.png                                       # Site logo
+=======
+title: Halve
+description: Stylish, Two-Column Jekyll Theme
+url: http://localhost:4000
+logo: dsa-logo.png                                       # Site logo
+>>>>>>> Stashed changes
 locale: en_US
 
 # Left Block Images
 background:
-  homepage: images/home.png                           # this image will be shown on homepage's left block
-  post-list: images/unsplash-image-10.jpg             # this image will be shown on post list page
-  default-post: images/unsplash-gallery-image-3.jpg   # this image will be shown when post's front matter doesn't specify any image
+  homepage: images/dsa-rally.jpg                           # this image will be shown on homepage's left block
+  post-list: images/dsa-posters.jpg             # this image will be shown on post list page
+  default-post: images/dsa-ows.jpg   # this image will be shown when post's front matter doesn't specify any image
 
 # Jekyll
 permalink:          /:title/
