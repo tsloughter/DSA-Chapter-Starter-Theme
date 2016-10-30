@@ -1,10 +1,10 @@
 ---
 layout: home
 ---
-# About Theme
+# DSA {Chapter Name}
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
+DSA {Chapter Name} is a chapter of the [Democratic Socialists of America](http://dsausa.org), the largest socialist organization in the USA. Our members are building progressive movements for social change in {Region} while establishing an openly democratic socialist presence in {Area} communities and politics.
 
-To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
+Democratic Socialists believe that both the economy and society should be run democratically—to meet public needs, not to make profits for a few.
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
+Please [join DSA](http://dsausa.org/join) as we work to help build a better and more just world for all.
