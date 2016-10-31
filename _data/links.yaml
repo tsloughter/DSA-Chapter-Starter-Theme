@@ -1,0 +1,26 @@
+- title: Democratic Socialists of America 
+  url: https://www.dsausa.org/
+  image: /images/huerta.jpg
+  completed: true
+
+- title: Young Democratic Socialists
+  url: https://www.ydsusa.org/
+  image: /images/yds.jpg
+  completed: true
+
+- title: Jacobin Magazine
+  url: https://www.jacobinmag.com/
+  image: /images/jacobin.png
+  completed: true
+
+
+- title: Monthly Review Magazine
+  url: https://monthlyreview.org/
+  image: /images/mr.jpg
+  completed: true
+
+- title: Socialist Worker Magazine
+  url: https://socialistworker.org/
+  image: /images/swm.jpg
+  completed: true
+
