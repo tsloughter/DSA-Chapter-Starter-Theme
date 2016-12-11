@@ -1,11 +1,11 @@
 <!-- JS -->
 <script src="{{ site.url }}/assets/js/main.min.js"></script>
-<script type="text/javascript" src="/components/jquery/jquery.min.js"></script>
-<script type="text/javascript" src="/components/lodash/lodash.min.js"></script>
-<script type="text/javascript" src="/components/bootstrap/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/components/bootstrap-calendar/js/calendar.js"></script>
-<script type="text/javascript" src="/components/moment/min/moment.min.js"></script>
-<script type="text/javascript" src="/components/papaparse/papaparse.min.js"></script>
+<script type="text/javascript" src="components/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="components/lodash/lodash.min.js"></script>
+<script type="text/javascript" src="components/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="components/bootstrap-calendar/js/calendar.js"></script>
+<script type="text/javascript" src="components/moment/min/moment.min.js"></script>
+<script type="text/javascript" src="components/papaparse/papaparse.min.js"></script>
 
 {% if site.google-analytics %}
 <!-- Asynchronous Google Analytics snippet -->
@@ -70,12 +70,10 @@
         // Load the calendar with the provided events in correct format
         function loadCalendar(calendarEvents) {
             var options = {
-                tmpl_path: "/components/bootstrap-calendar/tmpls/",
+                tmpl_path: "components/bootstrap-calendar/tmpls/",
                 events_source: calendarEvents,
                 view: 'month',
                 tmpl_cache: false,
-                weekbox:false,
-                display_week_numbers: false,
 
                 day:
                 {% if page.calendar_focus_date %}
