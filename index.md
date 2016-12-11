@@ -1,5 +1,9 @@
 ---
-layout: home
+layout: calendar
+
+calendar_timezone_offset: -0800   # required
+calendar_csv: events.csv
+calendar_caption: DSA {Location} Events
 ---
 # DSA {Chapter Name}
 
