@@ -8,12 +8,14 @@ calendar_bootstrap_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootst
 <div>
   {{ content }}
 </div>
+<div style="padding-bottom:10px;">
+<h1 id="dsa-san-diego">Calendar</h1>
+</div>
+<div class="container dsa-calendar" style="width:100%">
 
-<div class="container" style="width:100%">
   <div class="page-header">
-
     <div class="pull-right form-inline">
-      <div class="btn-group">a
+      <div class="btn-group">
         <button class="btn btn-primary" data-calendar-nav="prev"><< Prev</button>
         <button class="btn btn-default" data-calendar-nav="today">Today</button>
         <button class="btn btn-primary" data-calendar-nav="next">Next >></button>
@@ -27,12 +29,11 @@ calendar_bootstrap_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootst
     </div>
 
     <h3></h3>
-    <small>{{ page.calendar_caption }}</small>
   </div>
 
   <div id="calendar"></div>
   <h4>Events</h4>
-  <ul id="eventlist" class="nav nav-list"></ul>
+  <ul id="eventlist" class="nav nav-list" style="margin-top: 0px;"></ul>
   <div class="clearfix"></div>
 
 </div>
